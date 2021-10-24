@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    .img {
+      background-size: cover;
+    }
+
+    .sec1 {
+      background-image: url(https://images.pexels.com/photos/9851112/pexels-photo-9851112.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+      background-size: cover;
+      background-repeat: no-repeat;
+      height: 600px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-attachment: fixed;
+      color: white;
+    }
+
+    .sec2 {
+      background-image: url(https://images.pexels.com/photos/5804273/pexels-photo-5804273.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+      height: 600px;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-attachment: fixed;
+    }
+
+    .sec3 {
+      background-image: url(https://images.pexels.com/photos/5427462/pexels-photo-5427462.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+      height: 600px;
+      background-size: cover;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-attachment: fixed;
+
+    }
+
+    .sec5 {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 2em;
+    }
+
+    .sec4 {
+      background-color: black;
+      color: white;
+      text-align: center;
+      padding: 2em;
+    }
+
+    .sec5 .col {
+      padding: 2em;
+
+    }
+
+    .col:hover {
+      background-color: black;
+      color: white;
+    }
+
+    .sec2 .col {
+      padding: 2em;
+      margin: 2em;
+    }
+
+    div.container {
+      text-decoration: none;
+      color: white;
+      align-items: center;
+    }
+    .s10 .col a{
+      color:white;
+      text-decoration: none;
+      display: block;
+      text-align:center;
+      
+    }
+  </style>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navbar navbar-dark bg-dark fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Rolls Royce</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
+        aria-controls="offcanvasNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Kavish Chawla</h5>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+            <li class="nav-item">
+              <a class="nav-link active text-dark" aria-current="page" href="#carouselExampleCaptions">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#KC">Images</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#KK">Card</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#CK">Founder</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#Phanthom">World War</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#Cullinan">Market</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#MI">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#CSK">Sign In</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-dark" href="#RCB">Footer</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="offcanvasNavbarDropdown" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="offcanvasNavbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li>
+                  <hr class="dropdown-divider">
+                </li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner" id="KC">
+      <div class="carousel-item active">
+        <img
+          src="https://images.pexels.com/photos/3894049/pexels-photo-3894049.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=450&w=940"
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>Black colour Rolce Royce</h1>
+          <p>The model for The Spirit of Ecstasy was shrouded in scandal.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://images.pexels.com/photos/3764984/pexels-photo-3764984.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=450&w=940"
+          class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block">
+          <h1>White colour Rolce Royce</h1>
+          <p>BMW shelled out tens of millions for the rights to the ornament.</p>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img
+          src="https://images.pexels.com/photos/3849549/pexels-photo-3849549.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=450&w=940"
+          alt="..." id="img">
+
+        <div class="carousel-caption d-none d-md-block">
+          <h1>BLack colour Rolce Royce</h1>
+          <p>Over 60 percent of all Rolls-Royces are still on the road.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+  <div class="sec4">
+
+
+    <div class="container">
+      <div class="row">
+        <h1>Rolce Royce</h1>
+        <p>
+          Rolls-Royce Motor Cars Limited is a British luxury automobile maker. Rolls-Royce Motor Cars Limited operates
+          from purpose-built administrative and production facilities opened in 2003 across from the historic Goodwood
+          Circuit in Goodwood, West Sussex, England, United Kingdom.
+        </p>
+      </div>
+      <div class="row">
+        <div class="col">
+          <div class="card" style="width: 18rem;" id="KK">
+            <img
+              src="https://images.pexels.com/photos/842793/pexels-photo-842793.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              class="card-img-top" alt="...">
+            <div class="card-body text-dark">
+              <h5 class="card-title">Audi</h5>
+              <p class="card-text">Audi founder trained under Karl Benz.</p>
+              <a href="#" class="btn btn-primary">More info</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="https://images.pexels.com/photos/8921708/pexels-photo-8921708.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              class="card-img-top" alt="...">
+            <div class="card-body text-dark">
+              <h5 class="card-title">Mercedes</h5>
+              <p class="card-text">Mercedes-Benz made a hybrid vehicle in 1906. </p>
+              <a href="#" class="btn btn-primary">More info</a>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card" style="width: 18rem;">
+            <img
+              src="https://images.pexels.com/photos/86993/pexels-photo-86993.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940"
+              class="card-img-top" alt="...">
+            <div class="card-body text-dark">
+              <h5 class="card-title">BMW</h5>
+              <p class="card-text">BMW Made its First Electric Car in 1972.</p>
+              <a href="#" class="btn btn-primary">More info</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sec1" id="CK">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Rolls Royce</h1>
+          <p>Sir Frederick Henry Royce, 1st Baronet, OBE (27 March 1863 – 22 April 1933) was an English engineer famous
+            for his designs of car and aeroplane engines with a reputation for reliability and longevity. With Charles
+            Rolls (1877 – 1910) and Claude Johnson (1864 – 1926), he founded Rolls-Royce.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="sec2" id="Phanthom">
+    <div class="row">
+      <div class="col">
+        <h1>How the helped in world war 1</h1>
+        <p> The First World War brought them into manufacturing aero-engines. Joint development of jet engines began in
+          1940 and they entered production. Rolls-Royce has built an enduring reputation for development and manufacture
+          of engines for defence and civil aircraft.
+        </p>
+      </div>
+      <div class="col">
+        <h1>which contract was signed in World War 2</h1>
+        <p>In 1940, a contract was signed with the Packard Motor Car Company in Detroit, Michigan, for the production of
+          Merlin aero-engines for World War II in the USA.
+
+          Production focused on aero engines but a variant of the Merlin engine, known as the Meteor, was developed for
+          the Cromwell tank. The Meteor's development completed in 1943 the same team at the Belper foundry restarted
+          work on an eight-cylinder car engine widening its uses and it became the pattern for the British Army's B
+          range of petrol engines for post war combat vehicles[2] in particular in Alvis's FV600 range,[nb 2] Daimler's
+          Ferret, Humber's Hornet and Pig and Austin's Champ.</p>
+      </div>
+      <div class="col">
+        <h1>Which company owns Rolce Royce</h1>
+        <p>In 1998, BMW also acquired the rights to the Rolls Royce brand from Vickers Plc.</p>
+      </div>
+    </div>
+
+
+  </div>
+  <div class="sec3" id="Cullinan">
+    <div class="row">
+      <div class="col">
+        <h1>Market Share</h1>
+        <p>144.56 GBX
+          +1.24 (0.87%)</p>
+      </div>
+      <div class="col">
+        <h1>CEO of the company</h1>
+        <p>Warren East</p>
+      </div>
+      <div class="col">
+        <h1>Net Worth</h1>
+        <p>$3.73B=2,80,72,91,25,000.00 Indian Rupee</p>
+      </div>
+    </div>
+  </div>
+  <div class="sec5" id="MI">
+    <div class="container">
+      <div class="row">
+        <div class="col">
+          <h1>Rolls Royce <i class="fas fa-car"></i> </h1>
+          <p>Luxury and Fast</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h3>Engine</h3>
+          <p>
+            Most Rolls-Royce models are powered by the BMW N74 engine</p>
+        </div>
+        <div class="col">
+          <h3>Safety</h3>
+          <p>Rolls-Royce Wraith has got lots of safety feature like Lane Keep Assist, SRS airbags, Adaptive Cruise
+            Control, Night Vision Camera,</p>
+        </div>
+        <div class="col">
+          <h3>Comfort</h3>
+          <p>
+            The eighth-generation Phantom isolates occupants from the outside world with sumptuous comfort in true
+            Rolls-Royce fashion</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <h3>Horse Power</h3>
+          <p>Prodigious power is provided by a silken 563-hp twin-turbo V-12 paired with an eight-speed automatic and
+            rear-wheel drive.</p>
+        </div>
+        <div class="col">
+          <h3>Average</h3>
+          <p>The Rolls-Royce Ghost mileage is 6.33 kmpl. </p>
+        </div>
+        <div class="col">
+          <h3>Transmision</h3>
+          <p>automatic transmission</p>
+        </div>
+      </div>
+    </div>
+    <div class="img" id="CSK">
+      <div class="container">
+        <div class="row">
+          <div class="col"></div>
+          <div class="col-8 p-6">
+            <h2>Contact</h2>
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label for="inputEmail4" class="form-label">Email</label>
+                <input type="email" class="form-control" id="inputEmail4">
+              </div>
+              <div class="col-md-6">
+                <label for="inputPassword4" class="form-label">Password</label>
+                <input type="password" class="form-control" id="inputPassword4">
+              </div>
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+              </div>
+              <div class="col-12">
+                <label for="inputAddress2" class="form-label">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              </div>
+              <div class="col-md-6">
+                <label for="inputCity" class="form-label">City</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="col-md-4">
+                <label for="inputState" class="form-label">State</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Choose...</option>
+                  <option>...</option>
+                </select>
+              </div>
+              <div class="col-md-2">
+                <label for="inputZip" class="form-label">Zip</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+              <div class="col-12">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Check me out
+                  </label>
+                </div>
+              </div>
+              <div class="col-12">
+                <button type="submit" class="btn btn-primary">Sign in</button>
+              </div>
+            </form>
+          </div>
+          <div class="col"></div>
+        </div>
+      </div>
+    </div>
+    <div class="s10" id="RCB">
+      <div class="container">
+        <div class="row">
+          <div class="col">
+            <h1>Rolls Royce</h1>
+            <p>In the late 1960s, Rolls-Royce was adversely affected by the mismanaged development of its advanced RB211
+              jet engine and consequent cost over-runs, though it ultimately proved a great success. In 1971, the owners
+              were obliged to liquidate their business.</p>
+          </div>
+          <div class="col">
+            <h1>Contact</h1>
+            <a href="https://www.rolls-royce.com/"><i class="fas fa-user-friends"></i> Customer Care</a>
+            <a href="https://www.rolls-royce.com/"> <i class="fas fa-user-shield"></i> Safety</a>
+            <a href="https://www.rolls-royce.com/"> <i class="fas fa-car"></i> Servising</a>
+            <a href="https://www.rolls-royce.com/"> <i class="fas fa-home"></i> Address</a>
+          </div>
+          <div class="col">
+            <h1>Important parts</h1>
+            <a href="https://www.rolls-royce.com/">Engine</a>
+            <a href="https://www.rolls-royce.com/">Horse Power</a>
+            <a href="https://www.rolls-royce.com/">Transmission</a>
+            <a href="https://www.rolls-royce.com/">Servising Charges</a>
+          </div>
+          <div class="col">
+            <h1>Inside</h1>
+            <a href="https://www.rolls-royce.com/">Comfort</a>
+            <a href="https://www.rolls-royce.com/">Seats</a>
+            <a href="https://www.rolls-royce.com/">Technology</a>
+            <a href="https://www.rolls-royce.com/">Safety</a>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    </div>
+   
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
